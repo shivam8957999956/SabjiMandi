@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_near_me"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Near Me" />
+
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/explore_icon"
+        android:title="Explore" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/cart_icon"
+        android:title="Cart" />
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/account_icon"
+        android:title="Account" />
+
+
+</menu>

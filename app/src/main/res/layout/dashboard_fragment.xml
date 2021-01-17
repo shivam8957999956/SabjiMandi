@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightWhite">
+    <RelativeLayout
+        android:id="@+id/search_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/search_btn"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            app:endIconMode="clear_text"
+            app:boxBackgroundColor="@color/lightWhite"
+            app:startIconDrawable="@drawable/explore_icon"
+            android:hint="Search Your vegetables/ fruits or shops"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/colorPrimaryDark"
+            app:boxStrokeColor="@color/colorPrimaryDark"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/colorPrimary"
+            app:startIconTint="@color/black">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="18sp"/>
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Searches"
+        android:layout_below="@+id/search_tag"
+        android:fontFamily="@font/cairo_semibold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"/>
+
+
+</RelativeLayout>

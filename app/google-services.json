@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "885498771857",
+    "firebase_url": "https://sabji-mandi-a8c3e.firebaseio.com",
+    "project_id": "sabji-mandi-a8c3e",
+    "storage_bucket": "sabji-mandi-a8c3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885498771857:android:020d816133698fd4b94230",
+        "android_client_info": {
+          "package_name": "com.example.sabjimandi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885498771857-3eqov90m1gbtc74m6emo0ce641qv12uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcEA1cpyzgISnAI5mi67Ge5q3TAQ7RUfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885498771857-3eqov90m1gbtc74m6emo0ce641qv12uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
